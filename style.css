@@ -65,13 +65,14 @@ img.col {
 img.big {
     width:100%
 }
+/* Sets image to moderate size */
+img.medium {
+    height: 600px;
+    padding-left: 100px;
+}
 /* Refines spacing of nebula image. */
 #nebula {
     padding-left: 100px;
-}
-/* Refines spacing of spectrum image. */
-#spectrum {
-    padding-left: 200px;
 }
 /* Sets width of table to match page width. */
 table {
