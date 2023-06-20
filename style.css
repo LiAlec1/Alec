@@ -1,48 +1,51 @@
+/* Defines spacing, zoom, font, and background color of body elements. */
 body {
     margin:0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     zoom:110%;
     background-color:black;
 }
-body.formation {
-    background-color: darkblue;
-}
+/* Defines spacing, size, and colour of title font. */
 h1 {
-    clear:both;
-    display: block;
     padding: 40px 40px;
     font-size: 75px;
     margin-top:80px;
     color:white;
-
 }
+/* Defines spacing, size, and colour of dividing line. */
 hr {
     margin-left: 50px;
     margin-right: 50px;
     height: 5px;
     color: white;
 }
+/* Defines size and colour of secondary heading text. */
 h2 {
     font-size: 40px;
     color:white;
 }
+/* Defines class that centers text. */
 .center {
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
 }
+/* Defines left margin for secondary heading text when needed. */
 h2.col {
     margin-left: 50px;
 }
+/* Defines spacing, colour, and size of paragraph text. */
 h3 {
     color:white;
     margin-left: 50px;
     margin-right: 50px;
     font-size:30px;
 }
+/* Defines class that wraps text when needed. */
 .wrap {
     word-wrap: break-word; width: 90%
 }
+/* Defines horizontal list for navigation bar. */
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,37 +55,46 @@ ul {
     top: 0;
     width: 100%;
   }
+/* Resizes images in columns. */
 img.col {
     height:400px;
     padding-left:200px;
     padding-top: 50px;
 }
+/* Makes image big. */
 img.big {
     width:100%
 }
+/* Refines spacing of nebula image. */
 #nebula {
     padding-left: 100px;
 }
+/* Refines spacing of spectrum image. */
 #spectrum {
     padding-left: 200px;
 }
+/* Sets width of table to match page width. */
 table {
     width:100%
 }
+/* Sets with of table columns to half of page width. */
 .left-col {
     width:50%;
 }  
+/* Defines colour and transparency of navigation bar. */
 .nav {
     color:black;
     background: rgba(0,0,0,0.5);
-
 }
+/* Positions navigation bar buttons at top right of page. */
 li{
     float:right;
-}  
+}
+/* Creates effect when cursor is hovered over button. */
 li a:hover {
     background-color: #111;
   }  
+/* Defines size and colour of navigation bar buttons. */
 li a {
     display: block;
     color: white;
